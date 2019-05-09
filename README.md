@@ -19,7 +19,7 @@ Solving the Tower of Hanoi mathematical puzzle by implementing a recursive algor
 >In case of 3 discs we can solve the puzzle in minimum ((2 to the power 3) - 1 = 7) 7 movements.
 
 ## Solving Procedure
-Let us say the following procedure to solve this puzzle which will be called recursively.
+Let us say the following procedure will be used to solve this puzzle which will be called recursively.
 ```
 P(noOfDiscs, nameOfFirstTower, nameOfSecondTower, nameOfThirdTower) ---------- (i)
 ```

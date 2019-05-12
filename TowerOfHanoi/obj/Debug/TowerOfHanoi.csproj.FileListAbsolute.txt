@@ -1,6 +1,0 @@
-E:\All_Project\TowerOfHanoi\TowerOfHanoi\bin\Debug\TowerOfHanoi.exe.config
-E:\All_Project\TowerOfHanoi\TowerOfHanoi\bin\Debug\TowerOfHanoi.exe
-E:\All_Project\TowerOfHanoi\TowerOfHanoi\bin\Debug\TowerOfHanoi.pdb
-E:\All_Project\TowerOfHanoi\TowerOfHanoi\obj\Debug\TowerOfHanoi.csprojResolveAssemblyReference.cache
-E:\All_Project\TowerOfHanoi\TowerOfHanoi\obj\Debug\TowerOfHanoi.exe
-E:\All_Project\TowerOfHanoi\TowerOfHanoi\obj\Debug\TowerOfHanoi.pdb

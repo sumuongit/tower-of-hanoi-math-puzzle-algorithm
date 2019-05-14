@@ -30,25 +30,25 @@ namespace TowerOfHanoi
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please input the number of discs, for example, 3.");
+            Console.Write("INPUT: Please input the number of discs, for example, 3. ");
             int discNo = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine();
 
-            Console.WriteLine("Please input the name of first tower, for example, A.");
+            Console.Write("Please input the name of first tower, for example, A. ");
             string firstTowerName = Console.ReadLine();
             Console.WriteLine();
 
-            Console.WriteLine("Please input the name of second tower, for example, B.");
+            Console.Write("Please input the name of second tower, for example, B. ");
             string secondTowerName = Console.ReadLine();
             Console.WriteLine();
 
-            Console.WriteLine("Please input the name of third tower, for example, C.");
-            string thirdTowerName = Console.ReadLine();
+            Console.Write("Please input the name of third tower, for example, C. ");
+            string thirdTowerName = Console.ReadLine();           
             Console.WriteLine();
 
             /*In case of 3 discs we can solve the puzzle in minimum ((2 to the power 3) - 1 = 7) 7 movements*/
-            Console.WriteLine("Following movements are required for solving the puzzle...");
-            Console.WriteLine();
+            Console.WriteLine("OUTPUT: Following movements are required for solving the puzzle:");
+            Console.WriteLine("================================================================");           
 
             TowerOfHanoiMathPuzzle tower = new TowerOfHanoiMathPuzzle();
             tower.SolvingProcedure(discNo, firstTowerName, secondTowerName, thirdTowerName);           
